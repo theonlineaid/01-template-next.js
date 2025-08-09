@@ -1,0 +1,104 @@
+/***
+ Theme Name: Aid
+ Description: Grocery, Super Market, eCommerce HTML Template
+ Version: 1.0
+ License: GNU General Public License v2 or later
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+==============================
+TABLE CONTENT
+ Import Google Fonts
+ Include Third Party CSS Library
+ GENERAL
+ HEADER
+ Offcanvas Sidebar
+ Search form
+ Main header
+ Mega menu
+ Header layouts
+ Page layouts
+ Pagination
+ Breadcrumb
+ CATEGORY PAGES
+ SINGLE POST
+ Author box
+ comment
+ Post share social
+ Custom amine
+***/
+
+// // 1. Configuration and helpers
+// @import 'abstracts/variables',
+// 'abstracts/functions',
+// 'abstracts/mixins';
+
+// // 2. Vendors
+// @import 'vendors/vendors-import';
+
+// // 3. Base stuff
+// @import 'base/common',
+// 'base/animation',
+// 'base/typography';
+
+// // 4. Components
+// @import 'components/buttons',
+// 'components/form',
+// 'components/slider',
+// 'components/card',
+// 'components/tabs',
+// 'components/misc',
+// 'components/banners';
+
+// // 5. Page-specific styles
+// @import 'pages/page',
+// 'pages/shop',
+// 'pages/blog',
+// 'pages/vendors';
+
+// // 6. Themes
+// @import 'themes/default';
+
+// // 7. Layout-related sections
+// @import 'layout/header',
+// 'layout/navigation',
+// 'layout/sidebar',
+// 'layout/footer',
+// 'layout/spacing',
+// 'layout/responsive';
+
+// 1. Configuration and helpers
+@use 'abstracts/index' as *;
+
+
+// 2. Vendors
+@use 'vendors/vendors-import' as *;
+
+// 3. Base stuff
+@use 'base/common' as *;
+@use 'base/animation' as *;
+@use 'base/typography' as *;
+
+// 4. Components
+@use 'components/buttons' as *;
+@use 'components/form' as *;
+@use 'components/slider' as *;
+@use 'components/card' as *;
+@use 'components/tabs' as *;
+@use 'components/misc' as *;
+@use 'components/banners' as *;
+
+// 5. Page-specific styles
+@use 'pages/page' as *;
+@use 'pages/shop' as *;
+@use 'pages/blog' as *;
+@use 'pages/vendors' as *;
+
+// 6. Themes
+@use 'themes/default' as *;
+
+// 7. Layout-related sections
+@use 'layout/header' as *;
+@use 'layout/navigation' as *;
+@use 'layout/sidebar' as *;
+@use 'layout/footer' as *;
+@use 'layout/spacing' as *;
+@use 'layout/responsive' as *;
